@@ -1,0 +1,192 @@
+
+body{
+    background-color: #1e2124;
+}
+
+.project-details-area p{
+    text-align: justify;
+    color: white;
+}
+
+.project-details-area h3{
+    color: white;
+}
+
+.project_banner h1{
+    top: 50%;
+    left: 50%;
+    font-family: "Segoe UI", serif;
+    font-size: 45pt;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: white;
+}
+
+.project_banner{
+    background: url("../img/banner/banner.jpg") bottom;
+    background-size: cover;
+    position: relative;
+    margin-top: 70px;
+    height: 25%;
+    border-bottom: 2px solid white;
+}
+
+.other-project-box{
+    text-align: center;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    color: white;
+    padding: 14px;
+    font-size: medium;
+    font-family: Roboto, serif;
+    width: 100%;
+}
+
+.other-project-box i{
+    font-size: larger;
+    padding-right: 15px;
+}
+
+.other-project-box a{
+    text-decoration: none;
+    color: white;
+}
+
+.left-area ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.spacer{
+    height: 15px;
+}
+
+.member-list{
+    border: 1px solid white;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    padding: 14px;
+}
+
+.member-list i{
+    font-size: x-large;
+    padding-right: 15px;
+}
+
+.member-list a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 1600px) {
+
+    .project_head {
+        width: 100%;
+        text-align: center;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project-images-area iframe{
+        margin-bottom: 15px;
+        height: 390px;
+    }
+
+    .project-images-area{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .project-images-area img{
+        max-height: 350px;
+        margin: 10px;
+        width: auto;
+    }
+
+    .project-box{
+        width: 100%;
+        display: flex;
+    }
+
+    .project-details-area{
+        padding: 40px;
+        width: 56%
+    }
+
+    .left-area{
+        border-right: 1px solid;
+        padding: 40px 25px;
+        width: 22%;
+        background-color: #2f3136;
+    }
+
+    .right-area{
+        border-left: 1px solid;
+        padding: 40px 25px;
+        width: 22%;
+        background-color: #2f3136;
+    }
+
+    .left-area h4{
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .right-area h4{
+        color: white;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .project-images-area iframe{
+        height: 160px;
+    }
+
+    .project-images-area img{
+        max-width: 100%;
+        margin: 10px;
+        width: auto;
+    }
+
+    .project_banner h1{
+        font-weight: bolder;
+        padding: 15px;
+        font-size: 22pt;
+    }
+
+    .project-details-area p{
+        font-size: 11pt;
+    }
+
+    .right-area{
+        padding: 15px 5px;
+        display: none;
+    }
+
+    .left-area{
+        width: 100%;
+        display: block;
+    }
+
+    .project-box{
+        display: block;
+        width: 100%;
+        margin-bottom: 50px
+    }
+
+    .project-details-area{
+        display: block;
+        padding: 20px;
+        width: 100%
+    }
+}
