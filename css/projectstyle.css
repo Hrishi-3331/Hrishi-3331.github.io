@@ -172,6 +172,8 @@ body{
     }
 
     .project-images-area img{
+        height: auto;
+        object-fit: contain;
         max-width: 100%;
         margin: 10px;
     }
