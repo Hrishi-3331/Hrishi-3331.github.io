@@ -74,6 +74,8 @@ button:focus {
     background-size: cover;
 }
 
+
+
 .nav-colored {
     background-color:white;
 }
@@ -251,6 +253,15 @@ button:focus {
 }
 
 @media (max-width: 430px) {
+
+    .navbar{
+        height: 60px;
+    }
+
+    .nav-container{
+        padding: 0;
+        margin-top: -12px;
+    }
 
     .brand-item-row{
         flex-wrap: wrap;
