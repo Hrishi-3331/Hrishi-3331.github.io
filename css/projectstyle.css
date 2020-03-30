@@ -26,7 +26,7 @@ body{
     background: url("../img/banner/banner.jpg") bottom;
     background-size: cover;
     position: relative;
-    margin-top: 70px;
+    margin-top: 60px;
     height: 25%;
     border-bottom: 2px solid white;
 }
@@ -167,10 +167,14 @@ body{
         width: auto;
     }
 
+    .project_banner{
+        height: 25%;
+    }
+
     .project_banner h1{
         font-weight: bolder;
         padding: 15px;
-        font-size: 22pt;
+        font-size: 18pt;
     }
 
     .project-details-area p{
