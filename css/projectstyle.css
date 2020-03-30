@@ -150,11 +150,13 @@ body{
 
     .navbar{
         height: 60px;
+        background-color: black;
     }
 
     .nav-container{
         padding: 0;
         margin-top: -12px;
+        background-color: black;
     }
 
     .project-images-area iframe{
@@ -164,7 +166,7 @@ body{
     .project-images-area img{
         max-width: 100%;
         margin: 10px;
-        width: auto;
+        object-fit: contain;
     }
 
     .project_banner{
@@ -172,9 +174,11 @@ body{
     }
 
     .project_banner h1{
+        width: 100%;
         font-weight: bolder;
         padding: 15px;
         font-size: 18pt;
+        text-align: center;
     }
 
     .project-details-area p{
