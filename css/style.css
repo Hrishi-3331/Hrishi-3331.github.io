@@ -256,11 +256,13 @@ button:focus {
 
     .navbar{
         height: 60px;
+        background-color: black;
     }
 
     .nav-container{
-        padding: 0;
-        margin-top: -12px;
+        margin-top: -18px;
+        z-index: -1;
+        background-color: black;
     }
 
     .brand-item-row{
