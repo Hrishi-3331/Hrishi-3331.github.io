@@ -321,6 +321,7 @@ button:focus {
     }
 
     .home-img{
+        margin-top: 16px;
         margin-left: auto;
         margin-right: auto;
         display: block;
